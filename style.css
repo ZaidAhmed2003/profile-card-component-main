@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-Blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsla(0, 0%, 59%, 0.329);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  text-decoration: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: top -500px left -250px, bottom -500px right -300px;
+  background-repeat: no-repeat;
+  background-color: var(--Dark-cyan);
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  width: 350px;
+}
+
+.profile-img {
+  background: url(./images/bg-pattern-card.svg) no-repeat;
+  background-size: cover;
+  height: 140px;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+img {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -46px;
+  left: 125px;
+  border: #fff 6px solid;
+}
+
+.profile-detail {
+  padding-top: 3.5em;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+}
+
+.cont {
+  padding-top: 0.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: hsl(227, 10%, 46%);
+}
+
+.cont p {
+  margin: 10px 0;
+}
+
+span {
+  color: var(--Very-dark-desaturated-Blue);
+  font-weight: 700;
+  font-size: 18px;
+}
+.cont p:last-child {
+  font-size: 14px;
+}
+
+.num {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--Very-dark-desaturated-Blue);
+  font-weight: 700;
+}
+.col p {
+  margin-bottom: 5px;
+}
+
+.num {
+  letter-spacing: 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--Dark-gray);
+  padding: 2em 0;
+  color: var(--Dark-grayish-blue);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: var(--Very-dark-desaturated-Blue);
+}
+
+@media (max-width: 600px) {
+  body {
+    background-position: top -30rem left -45rem, bottom -30rem right -45rem;
+  }
+}
