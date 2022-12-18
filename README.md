@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-kUqXIL3OBY)
-- Live Site URL: [Live Preview](https://precious-rugelach-c77734.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-LTNE1CWi0C)
+- Live Site URL: [Live Preview](https://lucent-clafoutis-15b971.netlify.app/)
 
 ## My process
 
